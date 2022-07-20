@@ -1,0 +1,51 @@
+1. pwd -used to display the location of the current working directory
+2. mkdir -used to create a new directory under any directory
+3. rmdir -used to delete a directory
+4. ls -used to display a list of content of a directory
+5. cd -used to change the current directory
+6. touch -used to create empty files, and multiple files at once
+7. cat -used to create a file, display content of the file, copy the content of one file to another file
+8. rm -used to remove a file
+9. cp -used to copy a file or directory
+10. mv -used to move a file or a directory form one location to another location
+11. head - used to display the content of a file and generally it displays first 10 lines. 
+12. tail - tail command is similar to head but it displays last 10 lines in a file. 
+13. tac  -  reverse cat and displays data in reverse format.
+14. su - To provide administrative access to user
+15. id - Used to display current ID and Group ID
+16. useradd - As name suggests it is used to add user.
+17. passwd - It is used to create and change password for an user.
+18. more - more command displays screenful output at a time
+19. less - opposite of more where user should switch lines between data.
+20. rename - rename command is used to rename files.
+21. groupadd -used to create a user group.
+22. cat - used as a filter. To filter a file, it is used inside pipes.
+23. cut -d(delimiter) -f(columnNumber) <fileName>   - used to select a specific column of a file.
+24. grep <searchWord> -It is useful for searching the content from a file. Generally, it is used with the pipe.
+25. comm <file1> <file2> - used to compare two files or streams.
+26. sed 's/<oldWord>/<newWord>/' -used to edit files using a regular expression.
+27. tee <newFile> -The tee command is quite similar to the cat command. 
+The only difference between both filters is that it puts standard input on standard output and also write them into a file.
+28. tr <'old'> <'new'> -used to translate the file content like from lower case to upper case.
+29. <fileName> | uniq - used to form a sorted list in which every word will occur only once.
+30. wc <file name> - used to count the lines, words, and characters in a file.
+31. od -used to display the content of a file in different s, such as hexadecimal, octal, and ASCII characters
+32. sort -used to sort files in alphabetical order
+33. gzip -used to truncate the file size. It is a compressing tool. It replaces the original file by the compressed file having '.gz' extension.
+34. gunzip -used to decompress a file. It is a reverse operation of gzip command.
+35. find -used to find a particular file within a directory. It also supports various options to find a file such as byname, by type, by date, and more.
+36. locate -used to search a file by file name
+37. date -used to display date, time, time zone, and more.                   
+38. cal -used to display the current month's calendar with the current date highlighted.
+39. sleep -used to hold the terminal by the specified amount of time. By default, it takes time in seconds.
+40. time -used to display the time to execute a command.
+41. zcat -used to display the compressed files.
+42. df -used to display the disk space used in the file system.
+43. mount -used to connect an external device file system to the system's file system.
+44. exit - used to exit from current shell.
+45. clear -used to clear the terminal screen.
+46. ip -used to assign an IP address, initialize an interface, disable an interface.
+47. ssh -used to create a remote connection through the ssh protocol.
+48. mail -used to send emails from the command line.
+49. ping -used to check the connectivity between two nodes. ( short form of Packet Internet Groper)
+50. host -used to display the IP address for a given domain name and vice- versa.

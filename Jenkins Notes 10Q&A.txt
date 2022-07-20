@@ -1,0 +1,62 @@
+Q1. What is Jenkins?
+
+Jenkins is an open source automation server.
+Jenkins is an open source continuous integration/continuous delivery and deployment (CI/CD) 
+automation software DevOps tool written in the Java programming language. 
+It is used to implement CI/CD workflows, called pipelines.
+
+Q2. What is Jenkins used for?
+
+Jenkins is used to automate the parts of software development related to building, testing and deploying, continuous integration and 
+continuous delivery.
+
+Q3. Which architecture is recommended for a scalable Jenkins environment?
+
+Distributed builds architecture is prescribed for a scalable Jenkins environment 
+because the agents perform the main work and the master maintains the coordination.
+
+Q4. How to add a user in Jenkins?
+
+1. Log in to Jenkins using the existing administrative user account credentials.
+2. Navigate to the “Manage Jenkins -> Manage Users” page.
+3. Select the “Create User” option.
+4. Enter a username, password, name and email address to create a new user. ...
+5. Save the new account.
+
+Q5. What is Jenkins Pipeline?
+
+Jenkins Pipeline is plugins which supports implementing and 
+integrating continuous delivery pipelines into Jenkins.
+
+Q6. What is Jenkinsfile?
+
+Jenkinsfile is a text file that contains the definition of a Jenkins Pipeline and is checked into source control.
+
+Q7. What is continuous integration in Jenkins?
+
+Continuous Integration is a process of integrating code changes from multiple developers in a single project many times.
+
+Q8. How to change port for Jenkins?
+
+1. Go to /etc/default folder --> Open the file "Jenkins".
+2. Modify the line HTTP_PORT=(present port number) as HTTP_PORT=(desired port number).
+3. Start Jenkins as root by using the command: sudo /etc/init. d/jenkins start.
+4. Open a browser and browse as localhost:(desired port number).
+
+
+Q9. What are the software prerequisites that must be met before Jenkins is installed?
+
+Jenkins requires an installation of the Java Development Kit (JDK). 
+JAVA_HOME should also be configured prior to installation.
+
+Q10. How to configure and use third-party tools in Jenkins?
+
+1. Inside Jenkins go to ‘Manage Jenkins’
+
+2. then go to ‘Manage Plugins’
+
+3. There you will find a tab called ‘Advanced’ , there you just have to type the third party tool name .
+
+4. Here you go, if the plugin is there in available option.You can just install the plugin from there.
+
+5. Then configure the third party tool inside the particular job
